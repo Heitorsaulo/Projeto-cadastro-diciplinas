@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Análise UFS</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    
+    
+    <form class="form1">
+      <label for="Codigo Disciplina" class="first-name">Codigo Disciplina</label>
+      <input name="codigoMateria" id="codigoMateria" type="text" placeholder="e.g: COMP0393">
+
+      <label for="Periodo">Periodo</label>
+      <input name ="periodo" id="periodo" type="text" placeholder="e.g: 2022.1; 2022.2; ... de forma crescente">
+
+      <label for="CH" class="last-name">CH</label>
+      <input name="chMateria" id="chMateria" type="number" placeholder="e.g: 60">  
+      
+      <label for="Freq">Frequencia(%)</label>
+      <input name="frequencia" id="frequencia" type="number" placeholder="e.g: 100" min="0" max="100">
+
+      <label for="Nota">Nota</label>
+      <input name="nota" id="nota" type="number" placeholder="e.g: 10" min="0" max="10">
+
+      <button type="submit">Adicionar</button>
+      <button id="btnED">Exibir Dados</button>
+      
+    </form>
+  <div class="tabela">
+    <div  id="table">
+      
+    </div>
+    <div class="content">
+      <table id="tabelaResultados" class="rTable">
+            <thead>
+              <tr>
+                <th>
+                  Soma CH
+                </th>
+                <th>
+                  Aprovados
+                </th>
+                <th>
+                  Reprovados
+                </th>
+                <th>
+                  Media Ponderada pela CH
+                </th>
+                <th>
+                  Desvio Padrao Geral
+                </th>
+                <th>
+                  Media Ponderada por Dep.
+                </th>
+                <th>
+                  Tempo de Curso(periodos)
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>  
+   
+  
+    
+    <script src="script.js"></script>
+  </body>
+</html>

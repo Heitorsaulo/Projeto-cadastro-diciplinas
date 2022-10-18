@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  form {
+    padding: 2em;
+    padding-bottom: 1.2em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form input {
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    border: 1px solid black;
+    margin: 4px;
+  }
+  form button:hover {
+    background: rgb(158, 158, 158);
+  }
+  
+  label {
+    text-align: right;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 1px solid rgb(42, 143, 168);
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      overflow: hidden;
+    }
+  
+    label {
+      float: left;
+      width: 200px;
+    }
+  
+    input {
+      float: left;
+      width: calc(100% - 200px);
+    }
+  
+    button {
+      float: right;
+      width: calc(100% - 200px);
+      
+    }
+  }
+.tabela{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin-top: 10px;
+    
+}
+  body{
+    background-color: grey;
+  }
+  table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+
+}
+th{
+    background-color: black;
+    color: rgb(219, 219, 219);
+}
+td{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: semi-expanded;
+}
+
+#tabelaResultados{
+  margin-left: 30px;
+  position: static;
+}
+
+
+
